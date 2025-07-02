@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleURLTypes</key>
+    <array>
+        <dict/>
+    </array>
+
+    <!-- Bluetooth Permissions -->
+    <key>NSBluetoothAlwaysUsageDescription</key>
+    <string>The app needs Bluetooth to connect to the Scosche Rhythm 24 heart rate monitor.</string>
+
+    <key>NSBluetoothPeripheralUsageDescription</key>
+    <string>This is required to scan and connect to heart rate monitors.</string>
+</dict>
+</plist>

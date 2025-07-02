@@ -1,0 +1,21 @@
+PODS:
+  - ScoscheSDK24 (0.4.0)
+
+DEPENDENCIES:
+  - ScoscheSDK24 (from `https://github.com/scosche/ScoscheSDK24.git`)
+
+EXTERNAL SOURCES:
+  ScoscheSDK24:
+    :git: https://github.com/scosche/ScoscheSDK24.git
+
+CHECKOUT OPTIONS:
+  ScoscheSDK24:
+    :commit: 398b51ef1bdc312f3269d70d67e69eaa01003eee
+    :git: https://github.com/scosche/ScoscheSDK24.git
+
+SPEC CHECKSUMS:
+  ScoscheSDK24: 5d657fdbb9992d48a790388d2516d2c3b928dfe6
+
+PODFILE CHECKSUM: 252a64777d0232e78883969e4c84e38be151294e
+
+COCOAPODS: 1.16.2

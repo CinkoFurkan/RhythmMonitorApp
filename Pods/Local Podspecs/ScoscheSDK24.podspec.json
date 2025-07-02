@@ -1,0 +1,21 @@
+{
+  "name": "ScoscheSDK24",
+  "version": "0.4.0",
+  "summary": "Framework for communicating with Scosche Rythmn 24",
+  "description": "Framework for communicating with Scosche Rythmn 24.",
+  "homepage": "https://www.scosche.com",
+  "license": "MIT",
+  "authors": {
+    "NPE": "scosche@npe-inc.com"
+  },
+  "source": {
+    "git": "scosche/ScoscheSDK24.git",
+    "tag": "0.4.0"
+  },
+  "vendored_frameworks": "ScoscheSDK24.xcframework",
+  "platforms": {
+    "ios": "12.0"
+  },
+  "swift_versions": "5",
+  "swift_version": "5"
+}

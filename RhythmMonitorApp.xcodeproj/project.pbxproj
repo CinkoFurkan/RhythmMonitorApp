@@ -1,0 +1,729 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A8A98AC4D8D40069CF8ECF1 /* Pods_RhythmMonitorAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA719BA2F04C8165E64EB6DB /* Pods_RhythmMonitorAppTests.framework */; };
+		3D4A5B3E8A386B44F8840316 /* Pods_RhythmMonitorApp_RhythmMonitorAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55572F369C90C3EF04166347 /* Pods_RhythmMonitorApp_RhythmMonitorAppUITests.framework */; };
+		B4B30DA98CC326F5CA500127 /* Pods_RhythmMonitorApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6A651017867D35E14E0E519 /* Pods_RhythmMonitorApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6868FA632DEB7226001A5B63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6868FA4A2DEB7224001A5B63 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6868FA512DEB7224001A5B63;
+			remoteInfo = RhythmMonitorApp;
+		};
+		6868FA6D2DEB7226001A5B63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6868FA4A2DEB7224001A5B63 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6868FA512DEB7224001A5B63;
+			remoteInfo = RhythmMonitorApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		55572F369C90C3EF04166347 /* Pods_RhythmMonitorApp_RhythmMonitorAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RhythmMonitorApp_RhythmMonitorAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6868FA522DEB7224001A5B63 /* RhythmMonitorApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RhythmMonitorApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6868FA622DEB7226001A5B63 /* RhythmMonitorAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RhythmMonitorAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6868FA6C2DEB7226001A5B63 /* RhythmMonitorAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RhythmMonitorAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC9667F80643560459961BF3 /* Pods-RhythmMonitorAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RhythmMonitorAppTests.release.xcconfig"; path = "Target Support Files/Pods-RhythmMonitorAppTests/Pods-RhythmMonitorAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		AF886AA93D7E93FDF2DA3101 /* Pods-RhythmMonitorApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RhythmMonitorApp.debug.xcconfig"; path = "Target Support Files/Pods-RhythmMonitorApp/Pods-RhythmMonitorApp.debug.xcconfig"; sourceTree = "<group>"; };
+		B6A651017867D35E14E0E519 /* Pods_RhythmMonitorApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RhythmMonitorApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA041E42AEAD347EBEEF8296 /* Pods-RhythmMonitorApp-RhythmMonitorAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RhythmMonitorApp-RhythmMonitorAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-RhythmMonitorApp-RhythmMonitorAppUITests/Pods-RhythmMonitorApp-RhythmMonitorAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C0C748E21A67640DA7E27C1D /* Pods-RhythmMonitorApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RhythmMonitorApp.release.xcconfig"; path = "Target Support Files/Pods-RhythmMonitorApp/Pods-RhythmMonitorApp.release.xcconfig"; sourceTree = "<group>"; };
+		C0E29C45ACADD72606512328 /* Pods-RhythmMonitorApp-RhythmMonitorAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RhythmMonitorApp-RhythmMonitorAppUITests.release.xcconfig"; path = "Target Support Files/Pods-RhythmMonitorApp-RhythmMonitorAppUITests/Pods-RhythmMonitorApp-RhythmMonitorAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CA719BA2F04C8165E64EB6DB /* Pods_RhythmMonitorAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RhythmMonitorAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEE12A85343A94F47DE51F74 /* Pods-RhythmMonitorAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RhythmMonitorAppTests.debug.xcconfig"; path = "Target Support Files/Pods-RhythmMonitorAppTests/Pods-RhythmMonitorAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		68507D1A2DEB819B0057020B /* Exceptions for "RhythmMonitorApp" folder in "RhythmMonitorApp" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 6868FA512DEB7224001A5B63 /* RhythmMonitorApp */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		6868FA542DEB7224001A5B63 /* RhythmMonitorApp */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				68507D1A2DEB819B0057020B /* Exceptions for "RhythmMonitorApp" folder in "RhythmMonitorApp" target */,
+			);
+			path = RhythmMonitorApp;
+			sourceTree = "<group>";
+		};
+		6868FA652DEB7226001A5B63 /* RhythmMonitorAppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = RhythmMonitorAppTests;
+			sourceTree = "<group>";
+		};
+		6868FA6F2DEB7226001A5B63 /* RhythmMonitorAppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = RhythmMonitorAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6868FA4F2DEB7224001A5B63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4B30DA98CC326F5CA500127 /* Pods_RhythmMonitorApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6868FA5F2DEB7226001A5B63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A8A98AC4D8D40069CF8ECF1 /* Pods_RhythmMonitorAppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6868FA692DEB7226001A5B63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D4A5B3E8A386B44F8840316 /* Pods_RhythmMonitorApp_RhythmMonitorAppUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F1C986A34BF6501068F0F5C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B6A651017867D35E14E0E519 /* Pods_RhythmMonitorApp.framework */,
+				55572F369C90C3EF04166347 /* Pods_RhythmMonitorApp_RhythmMonitorAppUITests.framework */,
+				CA719BA2F04C8165E64EB6DB /* Pods_RhythmMonitorAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6868FA492DEB7224001A5B63 = {
+			isa = PBXGroup;
+			children = (
+				6868FA542DEB7224001A5B63 /* RhythmMonitorApp */,
+				6868FA652DEB7226001A5B63 /* RhythmMonitorAppTests */,
+				6868FA6F2DEB7226001A5B63 /* RhythmMonitorAppUITests */,
+				6868FA532DEB7224001A5B63 /* Products */,
+				9A80E680B60A7150190273F3 /* Pods */,
+				1F1C986A34BF6501068F0F5C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6868FA532DEB7224001A5B63 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6868FA522DEB7224001A5B63 /* RhythmMonitorApp.app */,
+				6868FA622DEB7226001A5B63 /* RhythmMonitorAppTests.xctest */,
+				6868FA6C2DEB7226001A5B63 /* RhythmMonitorAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9A80E680B60A7150190273F3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AF886AA93D7E93FDF2DA3101 /* Pods-RhythmMonitorApp.debug.xcconfig */,
+				C0C748E21A67640DA7E27C1D /* Pods-RhythmMonitorApp.release.xcconfig */,
+				BA041E42AEAD347EBEEF8296 /* Pods-RhythmMonitorApp-RhythmMonitorAppUITests.debug.xcconfig */,
+				C0E29C45ACADD72606512328 /* Pods-RhythmMonitorApp-RhythmMonitorAppUITests.release.xcconfig */,
+				EEE12A85343A94F47DE51F74 /* Pods-RhythmMonitorAppTests.debug.xcconfig */,
+				AC9667F80643560459961BF3 /* Pods-RhythmMonitorAppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6868FA512DEB7224001A5B63 /* RhythmMonitorApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6868FA762DEB7226001A5B63 /* Build configuration list for PBXNativeTarget "RhythmMonitorApp" */;
+			buildPhases = (
+				8483AFAE9DD9BA6C9CCE4B89 /* [CP] Check Pods Manifest.lock */,
+				6868FA4E2DEB7224001A5B63 /* Sources */,
+				6868FA4F2DEB7224001A5B63 /* Frameworks */,
+				6868FA502DEB7224001A5B63 /* Resources */,
+				D90469E91E7B06CA357A455B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				6868FA542DEB7224001A5B63 /* RhythmMonitorApp */,
+			);
+			name = RhythmMonitorApp;
+			productName = RhythmMonitorApp;
+			productReference = 6868FA522DEB7224001A5B63 /* RhythmMonitorApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6868FA612DEB7226001A5B63 /* RhythmMonitorAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6868FA792DEB7226001A5B63 /* Build configuration list for PBXNativeTarget "RhythmMonitorAppTests" */;
+			buildPhases = (
+				EDD373D600AAAFB80EECD1BE /* [CP] Check Pods Manifest.lock */,
+				6868FA5E2DEB7226001A5B63 /* Sources */,
+				6868FA5F2DEB7226001A5B63 /* Frameworks */,
+				6868FA602DEB7226001A5B63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6868FA642DEB7226001A5B63 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				6868FA652DEB7226001A5B63 /* RhythmMonitorAppTests */,
+			);
+			name = RhythmMonitorAppTests;
+			productName = RhythmMonitorAppTests;
+			productReference = 6868FA622DEB7226001A5B63 /* RhythmMonitorAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6868FA6B2DEB7226001A5B63 /* RhythmMonitorAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6868FA7C2DEB7226001A5B63 /* Build configuration list for PBXNativeTarget "RhythmMonitorAppUITests" */;
+			buildPhases = (
+				AC8345C50D85764EB3792CFF /* [CP] Check Pods Manifest.lock */,
+				6868FA682DEB7226001A5B63 /* Sources */,
+				6868FA692DEB7226001A5B63 /* Frameworks */,
+				6868FA6A2DEB7226001A5B63 /* Resources */,
+				58271CC4715C319FDD12BA19 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6868FA6E2DEB7226001A5B63 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				6868FA6F2DEB7226001A5B63 /* RhythmMonitorAppUITests */,
+			);
+			name = RhythmMonitorAppUITests;
+			productName = RhythmMonitorAppUITests;
+			productReference = 6868FA6C2DEB7226001A5B63 /* RhythmMonitorAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6868FA4A2DEB7224001A5B63 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					6868FA512DEB7224001A5B63 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					6868FA612DEB7226001A5B63 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 6868FA512DEB7224001A5B63;
+					};
+					6868FA6B2DEB7226001A5B63 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 6868FA512DEB7224001A5B63;
+					};
+				};
+			};
+			buildConfigurationList = 6868FA4D2DEB7224001A5B63 /* Build configuration list for PBXProject "RhythmMonitorApp" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6868FA492DEB7224001A5B63;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 6868FA532DEB7224001A5B63 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6868FA512DEB7224001A5B63 /* RhythmMonitorApp */,
+				6868FA612DEB7226001A5B63 /* RhythmMonitorAppTests */,
+				6868FA6B2DEB7226001A5B63 /* RhythmMonitorAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6868FA502DEB7224001A5B63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6868FA602DEB7226001A5B63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6868FA6A2DEB7226001A5B63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		58271CC4715C319FDD12BA19 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RhythmMonitorApp-RhythmMonitorAppUITests/Pods-RhythmMonitorApp-RhythmMonitorAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RhythmMonitorApp-RhythmMonitorAppUITests/Pods-RhythmMonitorApp-RhythmMonitorAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RhythmMonitorApp-RhythmMonitorAppUITests/Pods-RhythmMonitorApp-RhythmMonitorAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8483AFAE9DD9BA6C9CCE4B89 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RhythmMonitorApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC8345C50D85764EB3792CFF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RhythmMonitorApp-RhythmMonitorAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D90469E91E7B06CA357A455B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RhythmMonitorApp/Pods-RhythmMonitorApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RhythmMonitorApp/Pods-RhythmMonitorApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RhythmMonitorApp/Pods-RhythmMonitorApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EDD373D600AAAFB80EECD1BE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RhythmMonitorAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6868FA4E2DEB7224001A5B63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6868FA5E2DEB7226001A5B63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6868FA682DEB7226001A5B63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6868FA642DEB7226001A5B63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6868FA512DEB7224001A5B63 /* RhythmMonitorApp */;
+			targetProxy = 6868FA632DEB7226001A5B63 /* PBXContainerItemProxy */;
+		};
+		6868FA6E2DEB7226001A5B63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6868FA512DEB7224001A5B63 /* RhythmMonitorApp */;
+			targetProxy = 6868FA6D2DEB7226001A5B63 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6868FA742DEB7226001A5B63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6868FA752DEB7226001A5B63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6868FA772DEB7226001A5B63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF886AA93D7E93FDF2DA3101 /* Pods-RhythmMonitorApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RhythmMonitorApp/Preview Content\"";
+				DEVELOPMENT_TEAM = ATSJV8NLCA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RhythmMonitorApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cinko.RhythmMonitorApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6868FA782DEB7226001A5B63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0C748E21A67640DA7E27C1D /* Pods-RhythmMonitorApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RhythmMonitorApp/Preview Content\"";
+				DEVELOPMENT_TEAM = ATSJV8NLCA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RhythmMonitorApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cinko.RhythmMonitorApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6868FA7A2DEB7226001A5B63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEE12A85343A94F47DE51F74 /* Pods-RhythmMonitorAppTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cinko.RhythmMonitorAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RhythmMonitorApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RhythmMonitorApp";
+			};
+			name = Debug;
+		};
+		6868FA7B2DEB7226001A5B63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC9667F80643560459961BF3 /* Pods-RhythmMonitorAppTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cinko.RhythmMonitorAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RhythmMonitorApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RhythmMonitorApp";
+			};
+			name = Release;
+		};
+		6868FA7D2DEB7226001A5B63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA041E42AEAD347EBEEF8296 /* Pods-RhythmMonitorApp-RhythmMonitorAppUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cinko.RhythmMonitorAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RhythmMonitorApp;
+			};
+			name = Debug;
+		};
+		6868FA7E2DEB7226001A5B63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0E29C45ACADD72606512328 /* Pods-RhythmMonitorApp-RhythmMonitorAppUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cinko.RhythmMonitorAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RhythmMonitorApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6868FA4D2DEB7224001A5B63 /* Build configuration list for PBXProject "RhythmMonitorApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6868FA742DEB7226001A5B63 /* Debug */,
+				6868FA752DEB7226001A5B63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6868FA762DEB7226001A5B63 /* Build configuration list for PBXNativeTarget "RhythmMonitorApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6868FA772DEB7226001A5B63 /* Debug */,
+				6868FA782DEB7226001A5B63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6868FA792DEB7226001A5B63 /* Build configuration list for PBXNativeTarget "RhythmMonitorAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6868FA7A2DEB7226001A5B63 /* Debug */,
+				6868FA7B2DEB7226001A5B63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6868FA7C2DEB7226001A5B63 /* Build configuration list for PBXNativeTarget "RhythmMonitorAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6868FA7D2DEB7226001A5B63 /* Debug */,
+				6868FA7E2DEB7226001A5B63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6868FA4A2DEB7224001A5B63 /* Project object */;
+}

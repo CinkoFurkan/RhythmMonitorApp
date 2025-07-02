@@ -1,0 +1,6 @@
+framework module Pods_RhythmMonitorAppTests {
+  umbrella header "Pods-RhythmMonitorAppTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
